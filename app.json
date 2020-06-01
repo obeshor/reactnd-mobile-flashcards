@@ -1,17 +1,25 @@
 {
-  "name": "reactnd-mobile-flashcards",
-  "displayName": "reactnd-mobile-flashcards",
+  "name": "mobile-flashcards-app",
+  "displayName": "mobile-flashcards-app",
   "expo": {
-    "name": "reactnd-mobile-flashcards",
-    "slug": "reactnd-mobile-flashcards",
+    "name": "mobile-flashcards-app",
+    "slug": "mobile-flashcards-app",
     "version": "1.0.0",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
+    "orientation": "portrait",
+    "icon": "./assets/img/icon/icon.png",
+    "splash": {
+      "image": "./assets/img/splash/splash.png",
+      "resizeMode": "cover"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "Mobile application that allows users to study collections of flashcards. The app will allow users to create different categories of flashcards, add flashcards to those decks, then take quizzes on those decks",
+    "githubUrl": "https://github.com/obeshor/reactnd-mobile-flashcards"
   }
 }
