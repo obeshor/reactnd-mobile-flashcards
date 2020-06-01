@@ -2,9 +2,9 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { Provider as PaperProvider } from "react-native-paper";
 import { Provider as StoreProvider } from "react-redux";
-import store from "./store";
-import Router from "./router";
-import { theme } from "./utils/theme";
+import store from "./src/store";
+import Router from "./src/router";
+import { theme } from "./src/utils/theme";
 
 export default function App() {
 	return (
